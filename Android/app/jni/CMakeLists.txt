@@ -8,7 +8,7 @@ project(GAME)
 
 
 # SDL sources are in a subfolder named "SDL"
-add_subdirectory(SDL)
+add_subdirectory(../../../third_party/sdl ./sdl/bin)
 
 # Compilation of companion libraries
 #add_subdirectory(SDL_image)
@@ -16,5 +16,5 @@ add_subdirectory(SDL)
 #add_subdirectory(SDL_ttf)
 
 # Game data
-add_subdirectory("../../../")
+add_subdirectory(../../../ ./src/bin)
 
